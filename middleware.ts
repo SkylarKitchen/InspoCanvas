@@ -1,7 +1,7 @@
-import { auth } from "@clerk/nextjs";
+import { authMiddleware } from "@clerk/nextjs";
 
-export default auth;
-// Required for Next.js middleware
+export default authMiddleware();
+
 export const config = {
   matcher: ["/((?!.+\\.[\\w]+$|_next).*)", "/", "/(api|trpc)(.*)"],
 };
