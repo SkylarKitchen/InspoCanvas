@@ -5,7 +5,10 @@ import { mutation, query } from "./_generated/server";
 const ORG_BOARD_LIMIT = 2;
 
 const images = [
-  "placeholders/board_icon.png",
+  "/placeholders/1.png",
+  "/placeholders/2.png",
+  "/placeholders/3.png",
+  "/placeholders/4.png",
 
 ];
 
